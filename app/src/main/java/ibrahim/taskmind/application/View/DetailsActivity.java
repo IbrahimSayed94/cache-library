@@ -87,7 +87,7 @@ public class DetailsActivity extends AppCompatActivity {
 
         new MindValley.LoadImage()
                 .with(this)
-                .from(data.getUser().getProfile_image().getSmall())
+                .from(data.getUser().getProfile_image().getMedium())
                 .into(user_image)
                 .create();
 
