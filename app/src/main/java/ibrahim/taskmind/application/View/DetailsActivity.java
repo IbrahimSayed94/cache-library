@@ -84,6 +84,7 @@ public class DetailsActivity extends AppCompatActivity {
                 .into(cover_image)
                 .create();
 
+        Log.e("QP","user image : "+data.getUser().getProfile_image().getMedium());
 
         new MindValley.LoadImage()
                 .with(this)
