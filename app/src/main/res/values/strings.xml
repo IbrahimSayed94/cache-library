@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TaskMind</string>
+
+
+    <string name="by">By : </string>
+    <string name="description">Description : </string>
+    <string name="taked_by">Taked by : </string>
+
+    <string name="category">Category : </string>
+    <string name="size">Size : </string>
+</resources>
