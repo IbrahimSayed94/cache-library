@@ -3,6 +3,9 @@ package ibrahim.taskmind.Library.Main.Cashe;
 import android.util.Log;
 import android.util.LruCache;
 
+import javax.inject.Singleton;
+
+@Singleton
 public class Cache
 {
     private static Cache instance;

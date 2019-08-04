@@ -16,6 +16,7 @@
         android:supportsRtl="true"
         android:hardwareAccelerated="false"
         android:largeHeap="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
         <activity android:name=".application.View.DetailsActivity"></activity>
         <activity android:name=".application.View.MainActivity">

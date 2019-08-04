@@ -1,6 +1,14 @@
 package ibrahim.taskmind;
 
+import android.graphics.Bitmap;
+
+import org.junit.Before;
 import org.junit.Test;
+import org.mockito.Mock;
+
+import ibrahim.taskmind.Library.Main.Cashe.Cache;
+import ibrahim.taskmind.Library.Main.Cashe.MemoryCache;
+import ibrahim.taskmind.application.Model.DataResponse;
 
 import static org.junit.Assert.*;
 
@@ -14,4 +22,7 @@ public class ExampleUnitTest {
     public void addition_isCorrect() {
         assertEquals(4, 2 + 2);
     }
+
+
+
 }
